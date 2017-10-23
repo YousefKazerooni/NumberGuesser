@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A3C01C51F99600800BE0A76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C01C41F99600800BE0A76 /* main.cpp */; };
+		6A3C01D21F99613D00BE0A76 /* NumberGuesser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C01D01F99613D00BE0A76 /* NumberGuesser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6A3C01C11F99600800BE0A76 /* NumberGuesser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberGuesser; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3C01C41F99600800BE0A76 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6A3C01D01F99613D00BE0A76 /* NumberGuesser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberGuesser.cpp; sourceTree = "<group>"; };
+		6A3C01D11F99613D00BE0A76 /* NumberGuesser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberGuesser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6A3C01C41F99600800BE0A76 /* main.cpp */,
+				6A3C01D01F99613D00BE0A76 /* NumberGuesser.cpp */,
+				6A3C01D11F99613D00BE0A76 /* NumberGuesser.hpp */,
 			);
 			path = NumberGuesser;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A3C01C51F99600800BE0A76 /* main.cpp in Sources */,
+				6A3C01D21F99613D00BE0A76 /* NumberGuesser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +243,7 @@
 				6A3C01CA1F99600800BE0A76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
